@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="style1">
+        <item name="android:textSize">28sp</item>
+        <item name="android:fontFamily">sans-serif-smallcaps</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@color/colorOfText</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="style2">
+        <item name="android:textSize">22sp</item>
+        <item name="android:fontFamily">sans-serif-smallcaps</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@color/colorOfsister</item>
+        <item name="android:padding">14dp</item>
+        <item name="android:gravity">center_horizontal</item>
+
+    </style>
+
+</resources>
