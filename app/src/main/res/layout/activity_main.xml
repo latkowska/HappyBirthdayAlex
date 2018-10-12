@@ -3,20 +3,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/prezent03"
+    android:background="@drawable/gift"
     android:orientation="vertical"
     tools:context="com.example.android.happybirthdayalex.MainActivity">
 
     <TextView
-        style="@style/style1"
+        style="@style/headerStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/text1" />
+        android:text="@string/header" />
 
     <TextView
-        style="@style/style2"
+        style="@style/wishesStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/text2" />
+        android:text="@string/wishes" />
 
 </LinearLayout>
